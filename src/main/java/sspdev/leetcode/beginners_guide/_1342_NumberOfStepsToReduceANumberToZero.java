@@ -1,4 +1,4 @@
-package main.java.sspdev.leetcode.firstProblem;
+package main.java.sspdev.leetcode.beginners_guide;
 
 /**
  * Given an integer num, return the number of steps to reduce it to zero.

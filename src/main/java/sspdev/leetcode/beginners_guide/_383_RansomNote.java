@@ -1,4 +1,6 @@
-package main.java.sspdev.leetcode.firstProblem;
+package main.java.sspdev.leetcode.beginners_guide;
+
+import java.util.List;
 
 /**
  * Given two strings ransomNote and magazine,
@@ -11,12 +13,13 @@ package main.java.sspdev.leetcode.firstProblem;
 public class _383_RansomNote {
 
     public static void main(String[] args) {
-        String ransomNode = "abaa";
-        String magazine = "aaab";
+        String ransomNode = "aab";
+        String magazine = "baa";
         System.out.println(canConstruct(ransomNode, magazine));
         System.out.println(canConstructV2(ransomNode, magazine));
     }
 
+    //wrong solution!
     public static boolean canConstruct(String ransomNote, String magazine) {
         StringBuilder result = new StringBuilder();
         if (ransomNote.length() > magazine.length()) {
@@ -47,7 +50,6 @@ public class _383_RansomNote {
                 return false;
             }
             magazine = magazine.substring(0, matchIndex) + magazine.substring(matchIndex + 1);
-            System.out.println();
         }
         return true;
     }

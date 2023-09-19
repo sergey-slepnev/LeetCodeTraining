@@ -1,4 +1,4 @@
-package main.java.sspdev.leetcode.firstProblem;
+package main.java.sspdev.leetcode.beginners_guide;
 
 /**
  * You are given an m x n integer grid accounts where accounts[i][j] is the amount of money the i-th

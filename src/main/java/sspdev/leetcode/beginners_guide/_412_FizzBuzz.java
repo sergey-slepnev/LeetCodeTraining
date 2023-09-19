@@ -1,4 +1,4 @@
-package main.java.sspdev.leetcode.firstProblem;
+package main.java.sspdev.leetcode.beginners_guide;
 
 import java.util.ArrayList;
 import java.util.List;
