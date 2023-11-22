@@ -1,4 +1,4 @@
-package main.java.sspdev.leetcode.top150;
+package main.java.sspdev.leetcode.random;
 
 import java.util.Arrays;
 import java.util.HashMap;
